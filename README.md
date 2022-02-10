@@ -5,26 +5,26 @@
 ### 2) run docker compose : 
   - run the following commnand
       ```python 
-        $ docker-composer build
+         docker-composer build
       ```
   - then run the following commnand
       ```python 
-        $ docker-composer up
+         docker-composer up
       ```
 
 ### 3) make migrations :
   - after building docker images and running container , follow this command to make migrations :
     - open CMD for backend container in diractory of repo :
       ```python 
-          $ docker-compose exec backend sh
+           docker-compose exec backend sh
       ```
     - then make migrations :
       ```python 
-          $ python manage.py makemigrations
+           python manage.py makemigrations
       ```
     - then migrate : 
       ```python 
-          $ python manage.py migrate 
+           python manage.py migrate 
       ```
 ## API documentations
 ## How to use app 
@@ -45,9 +45,9 @@
 ### you can run test cases by the following commands :
    - run the following commnand
       ```python 
-        $ docker-compose exec backend sh
+         docker-compose exec backend sh
       ```
   - then run
     ```python 
-        $ python manage.py test
+         python manage.py test
     ```

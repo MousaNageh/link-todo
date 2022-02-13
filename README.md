@@ -26,6 +26,12 @@
       ```python 
            python manage.py migrate 
       ```
+### 4) create super user :
+  - after making  migrations,create super user  to login to admin panel  :
+    - create super user :
+      ```python 
+           python manage.py createsuperuser
+      ```
 ## API documentations
   ### How to use app 
   - just open your browser to `http://127.0.0.1:8000/` , you will get all documentation about the API 

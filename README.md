@@ -12,21 +12,21 @@
   - after building docker images and running container , follow this command to make migrations :
     - open CMD for backend container in diractory of repo :
       ```sh 
-           docker-compose exec backend sh
+      docker-compose exec backend sh
       ```
     - then make migrations :
       ```sh 
-           python manage.py makemigrations
+      python manage.py makemigrations
       ```
     - then migrate : 
       ```sh 
-           python manage.py migrate 
+      python manage.py migrate 
       ```
 ### 4) create super user :
   - after making  migrations,create super user  to login to admin panel  :
     - create super user :
       ```sh 
-           python manage.py createsuperuser
+      python manage.py createsuperuser
       ```
 ## API documentations
   ### How to use app 
